@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="port">
+<head>
+<meta charset="utf-8">
+	<title>Bussiness central</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Dados Pessoais</legend>
+			Nome:
+			<input type="text" name="nome" placeholder="Digite seu nome completo" maxlength="50" required/>
+		</fieldset>
+
+		<fieldset>
+			<legend >Endereço:</legend>
+
+			<label for="Rua">Rua:</label>
+			<input type="text" name="rua" id="rua" placeholder="Digite seu Endereço!" maxlength="50" required/>
+
+			<label for="bairro">Bairro:</label>
+			<input type="text" name="bairro" id="bairro" placeholder="Digite bairro!" maxlength="50" required=""/>
+
+			<label for="numero">Número:</label>
+			<input type="text" name="numero" id="numero" maxlength="4"/>
+
+			CEP:
+			<input type="number" name="cep"/>
+		</fieldset>
+
+		<fieldset>
+			<legend>FILIAÇÃO</legend>
+
+			<label for="mae">Mãe</label>
+			<input type="text" name="mae" id="mae" placeholder="Nome da mãe" maxlength="20"/>
+
+			<label for="pai">Pai</label>
+			<input type="text" name="pai" id="pai" placeholder="Nome do Pai!" maxlength="20"/>
+		</fieldset>
+
+		<fieldset>
+			<legend>Telefones</legend>
+			Telefone residêncial:
+			<input type="tel" name="usrtel" placeholder="()0000-0000"/>
+			Telefone celular:
+			<input type="tel" name="usrtel" placeholder="()0000-0000"/>
+		</fieldset>
+
+		<fieldset>
+			<legend>Outras Informações</legend>
+			<textarea name="" id="" cols="70" rows="8">		
+			</textarea>
+		</fieldset>
+
+		<fieldset>
+			<button type="submit">Enviar </button>
+			<button type="reset">Limpar</button>
+		</fieldset>
+	</form>
+</body>
+</html>

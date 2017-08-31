@@ -1,0 +1,23 @@
+/*seletor universal*/
+*{
+	color: blue;
+	background: #FAF0E6;
+}
+
+/*seletor por class e reaproveitamento de código*/
+.Logo{
+	color: white;
+}
+.fundo-colorido{
+	background: #FF6347;
+}
+.h2{
+	color: red;
+
+}
+.p1{
+	color: black;
+}
+.p2{
+	color: black;
+}
